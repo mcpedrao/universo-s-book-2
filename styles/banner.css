@@ -24,27 +24,3 @@
     padding: 1em;
     width: 100%;
     }
-    
-    Adicionar comentário para a turma...
-    
-    
-    Postada por GABRIEL VENTURA VASSILICO
-    GABRIEL VENTURA VASSILICO
-    Criado em: 07:4807:48
-    @import url(",/styles/header.css");
-    
-    
-    :root {
-    --preto: #000000;
-    --font-principal: 'Poppins', 'sans serif';
-    --branco: #ffffff;
-    --azul-degrade: linear-gradient(97.54 deg, #002f52 35.49%, #3265899 165.37%);
-    --azul: #002f52;
-    --laranja:#EB9B00;
-    }
-    
-    body {
-    background-color: var(--preto);
-    color: white;
-    font-size: var(--fonte-principal);
-    }
