@@ -85,21 +85,75 @@
 <ul class = "botoes">
 <li class = "botoes__item">Favoritos</li>
 <img src = "IMG/Favoritos.svg" alt = "icone de Favoritos">
+
+<ul class = "botoes__item">
+<img src = "IMG/Compras.svg" alt ="icone de compras">
 </ul>
 
+<a href = "#" class = "botoes__ancora">SAIBA MAIS</a>
+
+</ul>
+</div>
 </div>
 </section>
 
 
+<section class = "carrossel">
+<h2 class = "carrossel__titulo">MAIS VENDIDOS</h2>
+</section>
+
+<div class = "swiper">
+<div class = "swiper-pagination"></div>
+<div class = "swiper-wrapper">
+<div classs = "swiper-slide"> <img src = "IMG/Angular-2.png" alt = "livro de programação vol 2"></div>
+<div classs = "swiper-slide"> <img src = "IMG/Caelum.png" alt = "livro sobre tecnologia"></div>
+<div classs = "swiper-slide"> <img src = "IMG/Estrelinhas.png" alt = "livro infantil sobre astronomia"</div>
+<div classs = "swiper-slide"> <img src = "IMG/MusicDot.png" alt = "livro sobre musica e cifras"></div>
+<div classs = "swiper-slide"> <img src = "IMG/Rectangle 30.png" alt = "livro sobre geometria"></div>
+<div classs = "swiper-slide"> <img src = "IMG/HipstersTech.png" alt = "livro sobre Tecnologias atuais"</div>
+</div>
+</div>
+
+<div class = "swiper-button-prev"></div>
+<div class = "swiper-button-next"></div>
+
+<section class = "topicos">
+<h2 class = "topicos__titulo">TOPICOS VISITADOS RECENTEMENTE</h2>
+<ul class = "topicos__lista"></ul>
+<ul class = "topicos__item"> <a href = "#" class = "topicos__ancora"> Fisica </a> </li>
+<ul class = "topicos__item"> <a href = "#" class = "topicos__ancora"> Astronomia </a> </li>
+<ul class = "topicos__item"> <a href = "#" class = "topicos__ancora"> Calculo </a> </li>
+<ul class = "topicos__item"> <a href = "#" class = "topicos__ancora"> Linguagem de Programação </a> </li>
+<ul class = "topicos__item"> <a href = "#" class = "topicos__ancora"> Tecnologia </a> </li>
+<ul class = "topicos__item"> <a href = "#" class = "topicos__ancora"> Telescópio </a> </li>
+
+</ul>
+</section>
+
+<section class = "contato">
+
+<h2 class = "contato__titulo">Fique por dentro das novidades da loja</h2>
+<p class = "contato__texto">Atualização de novos livros, ebook's e promoções, você encontra aqui!</p>
+<imput type = "email" placeholder="cadastre aqui seu email"></imput>
+</section>
 
 
+<footer class = "rodape">
+<h2 class = "rodape__titulo">Obrigado por acessar nosso site! Em breve novidades</h2>
 
+</footer>
 
+<script src = "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script&gt;
 
-
+<script>
+const swiper = new swiper(".swiper", {
+spaceBetween: 10,
+slidesPerView: 3,
+pagination: {
+el: ".swiper-pagination",
+type: "bullets",
+},
+} );
+</script>
 </body>
 </html>
-
-<div class="swiper">
-      <div class="swiper-paggination"></div>
-     </div class
